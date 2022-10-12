@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="/styles.css" />
+    <title>Reproductor</title>
+  </head>
+  <body>
+    <div class="container">
+        <div class="tituloContainer">
+            <h1>Reproductor de música</h1>
+        </div>
+      <div class="listaCanciones">
+
+        <div class="cancion">
+          <div class="titulo">Chasing Down a Vision</div>
+          <div class="play" id="Chasing Down a Vision - Bail Bonds">
+            <span class="material-icons"> play_circle </span>
+          </div>
+
+          <div class="stop">
+            <span class="material-icons"> stop_circle </span>
+          </div>
+
+          <div class="stop">
+            <span class="material-icons"> file_download </span>
+          </div>
+        </div>
+
+        <div class="cancion">
+          <div class="titulo">Dusty Rhymes</div>
+          <div class="play" id="Dusty Rhymes - Freedom Trail Studio">
+            <span class="material-icons"> play_circle </span>
+          </div>
+          <div class="stop">
+            <span class="material-icons"> stop_circle </span>
+          </div>
+          <div class="stop">
+            <span class="material-icons"> file_download </span>
+          </div>
+        </div>
+
+        <div class="cancion">
+          <div class="titulo">The Monuments and Tunnels in Goa and Hampi</div>
+          <div class="play" id="The Monuments and Tunnels in Goa and Hampi - Bail Bonds">
+            <span class="material-icons"> play_circle </span>
+          </div>
+          <div class="stop">
+            <span class="material-icons"> stop_circle </span>
+          </div>
+          <div class="stop">
+            <span class="material-icons"> file_download </span>
+          </div>
+        </div>
+      </div>
+      <input type="range" max="1" min="0" step="0.1" class="volumen" />
+    </div>
+    <script src="reproductor.js"></script>
+  </body>
+</html>

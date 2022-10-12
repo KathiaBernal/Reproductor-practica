@@ -1,0 +1,48 @@
+body{
+   font-family: 'Nunito';
+   background-color: #493f80;
+}
+.tituloContainer{
+    text-align: center;
+    font-size: large;
+    font-weight: 900;
+}
+
+.container{
+    width: 720px;
+    height: 350px;
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #f6f6f6;
+    border-radius: 20px;
+    box-shadow: 3px;
+}
+.volumen{
+    padding: 1rem 2rem;
+}
+
+.material-icons{
+    color: rgb(27, 112, 231);
+}
+
+.listaCanciones{
+    width: 100%;
+}
+
+.cancion{
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.titulo{
+    flex: 6;
+}
+
+.play, .stop, .download{
+    flex: 1;
+}
